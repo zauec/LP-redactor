@@ -1,8 +1,15 @@
+body {
+	background: url('../img/body_bg.png');
+	color: #000;
+	}
 .shad {
 	box-shadow: 0px 10px 30px #999;
 }
+#redaktor {
+	width: 1000px;
+	margin: 0 auto;
+	}
 .suitup { width:1000px}
-
 .suitup-textarea{
 	width: 1000px ;
 	height: 90%; 
@@ -83,7 +90,7 @@ a.suitup-control, span.suitup-control {
 }
 
 a.suitup-control {
-	background: url(suitup-sprite.png) no-repeat;
+	background: url('../img/suitup-sprite.png') no-repeat;
 }
 
 a.suitup-control.active{ background-color: #e0e0e5; }

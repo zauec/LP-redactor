@@ -1,12 +1,18 @@
 body {
 	font-family: 'PT Sans', sans-serif;
 	background: url('../img/body_bg.png');
-	color: #000;
-	}
+	color: #4E3F35;
+}
+
+*:focus{
+outline: none;
+}
+
 #lp-wrapper {
 	width: 1000px;
 	margin: 0 auto;
 }
+
 #lp-header {
 	height: 35px;
 	background-color: #F6F7F7;
@@ -15,20 +21,46 @@ body {
 	padding-top: 10px;
 	overflow: hidden;
 }
+
+#lp-header a {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+#lp-header a:hover {
+	border-bottom: none;
+}
+
+#file-load select {
+   background: #fff;
+   padding: 3px;
+   border: 1px solid #ccc;
+}
+
 .lp-mid {
 	width: 1000px;
 	margin: 0 auto;
 }
+
 .lp-title {
-	float: left;
-	width: 250px;
+	width: 245px;
+	font-size: 27px;
+	margin-top: -6px;
 }
+
 .float-right {
 	float: right;
 }
+
+#file-load {
+	float: left;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+
 #lp-pop-up {
 	width: 177px;
-
 }
 
 .lp-shad {
@@ -36,8 +68,8 @@ body {
 }
 
 #lp-redaktor {
+}
 
-	}
 .suitup { 
 	width:1000px;
 }

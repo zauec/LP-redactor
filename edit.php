@@ -120,7 +120,7 @@ $( function(){
 				<form id="file-load" action='<?=$_SERVER['php_self']?>' method= 'post'>
 					<select name="sel" id="sel">
 					<option value='' disabled selected style='display:none;'>Выберите файл</option>
-					<?foreach (glob("*.php") as $name) {?>
+					<?foreach (array_merge(glob("*.php"),glob("*.html")) as $name) {?>
 						<?if ($name != "edit.php" ) {?>
 							<?if ($name == $filename ) {?>
 							<option name='newF' value="<?=$name?>" selected> <?=$name?></option>
